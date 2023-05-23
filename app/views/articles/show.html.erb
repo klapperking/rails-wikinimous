@@ -1,0 +1,8 @@
+
+<div class="container article fullsize">
+  <div class="article title">
+    <h1><%= @article.title %></h1>
+    <%= link_to(fa_icon("regular pen"), edit_article_path(@article.id)) %>
+  </div>
+  <p><%= @article.content %></p>
+</div>
